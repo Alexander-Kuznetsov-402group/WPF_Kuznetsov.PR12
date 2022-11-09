@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WPF_Kuznetsov.PR12.PageMain"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PageLogin">
+      Title="Авторизация">
 
     <Grid>
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">

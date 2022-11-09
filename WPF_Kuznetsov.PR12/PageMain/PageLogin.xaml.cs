@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPF_Kuznetsov.PR12.ApplicationData;
+using WPF_Kuznetsov.PR12.PageAdmin;
+using WPF_Kuznetsov.PR12.PageStudent;
 
 namespace WPF_Kuznetsov.PR12.PageMain
 {
@@ -41,9 +43,11 @@ namespace WPF_Kuznetsov.PR12.PageMain
                     {
                         case 1:
                             MessageBox.Show("Здравствуйте, Администратор " + userObj.name + "!", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
+                            NavigationService.Navigate(new PageMenuAdmin());
                             break;
                         case 2:
                             MessageBox.Show("Здравствуйте, Ученик " + userObj.name + "!", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
+                            NavigationService.Navigate(new PageAccountStudent());
                             break;
                     }
                 }

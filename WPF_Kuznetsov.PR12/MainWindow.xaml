@@ -14,7 +14,7 @@
 
         <StackPanel Orientation="Horizontal">
             <Image Source="Resources/kaltinka.png" Width="50"/>
-            <TextBlock Text="Канцелярские товары" Style="{StaticResource Title}"/>
+            <TextBlock Text="{Binding ElementName=FrmMain, Path=Content.Title}" Style="{StaticResource Title}"/>
         </StackPanel>
         <Frame x:Name="FrmMain" NavigationUIVisibility="Hidden" Grid.Row="1">
 
