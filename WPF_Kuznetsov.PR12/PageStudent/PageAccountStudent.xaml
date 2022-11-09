@@ -18,6 +18,9 @@
                 <TextBox Text="Логин студента" VerticalContentAlignment="Center" Style="{StaticResource TextBox}"/>
                 <Label Content="логин" VerticalAlignment="Center" Style="{StaticResource Label}"/>
             </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button x:Name="btnBack" Content="Вернуться назад" Width="350" Height="20" Click="btnBack_Click"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Page>

@@ -24,5 +24,10 @@ namespace WPF_Kuznetsov.PR12.PageAdmin
         {
             InitializeComponent();
         }
+
+        private void btnBack_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new PageMain.PageLogin());
+        }
     }
 }

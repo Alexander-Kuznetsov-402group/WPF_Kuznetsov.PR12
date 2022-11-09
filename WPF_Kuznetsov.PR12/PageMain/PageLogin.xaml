@@ -11,7 +11,7 @@
     <Grid>
         <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <Label Content="Введите логин" Style="{StaticResource Label}"/>
-            <TextBox Text=" " Style="{StaticResource TextBox}" x:Name="txbLogin"/>
+            <TextBox Text="" Style="{StaticResource TextBox}" x:Name="txbLogin"/>
             <Label Content="Введите пароль" Style="{StaticResource Label}"/>
             <PasswordBox Style="{StaticResource PasswordBox}" x:Name="psbPassword"/>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">

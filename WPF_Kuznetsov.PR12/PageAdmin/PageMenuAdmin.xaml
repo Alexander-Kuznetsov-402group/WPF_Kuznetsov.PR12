@@ -15,7 +15,7 @@
                 <Button Content="Редактировать студента" Style="{StaticResource ButtonB}"/>
                 <Button Content="Удалить студента" Style="{StaticResource ButtonB}"/>
                 <Button Content="" Style="{StaticResource ButtonB}"/>
-                <Button Content="" Style="{StaticResource ButtonB}"/>
+                <Button x:Name="btnBack" Content="Вернуться назад" Style="{StaticResource ButtonB}" Click="btnBack_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>
